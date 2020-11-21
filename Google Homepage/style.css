@@ -1,0 +1,12 @@
+.main-nav{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Nav {
+float: right;
+}
