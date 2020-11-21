@@ -1,12 +1,35 @@
-.main-nav{
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-    position: fixed;
-    top: 0;
-    width: 100%;
+nav{
+  display: flex;
+  justify-content: space-between;
 }
 
-.Nav {
-float: right;
+nav div{
+    padding: 2%;
+}
+
+div{
+    display:flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 2%;
+}
+
+ul{
+    list-style: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+
+}
+
+input{
+    width: 330px;
+    height: 30px;
+    border-radius: 15px 15px;
+    border:
 }
