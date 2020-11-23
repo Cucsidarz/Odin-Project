@@ -1,4 +1,6 @@
-body{
+*{
+    padding:0;
+    margin:0;
 }
 
 /*Top of page nav bar*/
@@ -39,20 +41,54 @@ section{
     display: flex;
     justify-content: center;
     margin-top:20px;
+    margin-bottom:20px;
 }
 
+/*Buttons*/
+button{
+    display:flex;
+    align-items:center;
+    padding:5px;
+    
+}
+
+.button:hover {background-color: #d8d8d8}
+button div{
+    padding-top:5px;
+}
+
+/*Search bar*/
 input{
-    width: 430px;
+    width: 530px;
     height: 30px;
     border-radius: 15px 15px;
 }
-
 /* end of page*/
+
 footer{
     display:flex;
-    justify-content:flex-start;
-    bottom: 0;
-    background:rgb(216, 216, 216);
-    border:1px solid black;
-    margin-top:500px;
+    flex-direction: column;
+    position: fixed;
+    bottom:0px;
+    background-color: rgb(216, 213, 213);
+    width:100%;
 }
+
+footer div{
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+}
+
+ul div{
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+.leftlist{
+    justify-content:flex-end;
+}
+
