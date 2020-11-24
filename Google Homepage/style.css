@@ -59,27 +59,35 @@ button div{
 
 /*Search bar*/
 input{
-    width: 530px;
-    height: 30px;
-    border-radius: 15px 15px;
+    background-image: url(images/search-black-18dp.svg);
+    background-repeat: no-repeat;
+    background-size: 5%;
+    width:430px;
+    height:30px;
+    border-radius:15px 15px;
 }
-/* end of page*/
 
+input, select{
+    font-size: 20px;
+    padding-left:30px;
+};
+
+/* end of page*/
 footer{
     display:flex;
     flex-direction: column;
-    position: fixed;
+    position:absolute;
     bottom:0px;
-    background-color: rgb(216, 213, 213);
     width:100%;
 }
 
 footer div{
     width: 100%;
+    background-color:grey;
 }
 
 ul{
-    width: 100%;
+    width:100%;
 }
 
 ul div{
@@ -91,4 +99,3 @@ ul div{
 .leftlist{
     justify-content:flex-end;
 }
-
