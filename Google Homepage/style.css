@@ -61,7 +61,7 @@ button div{
 input{
     background-image: url(images/search-black-18dp.svg);
     background-repeat: no-repeat;
-    background-size: 5%;
+    background-size: 30px;
     width:430px;
     height:30px;
     border-radius:15px 15px;
